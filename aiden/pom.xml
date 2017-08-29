@@ -125,7 +125,7 @@
         <configuration>
           <update>true</update>
           <server>tomcat</server>
-          <url>http://localhost:8080/manager/text</url>
+          <url>http://125.131.73.28:8080/manager/text</url>
           <path>/</path>
           <charset>UTF-8</charset>
           <uriEncoding>UTF-8</uriEncoding>
