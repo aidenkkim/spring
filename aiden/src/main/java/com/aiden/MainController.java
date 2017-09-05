@@ -16,22 +16,54 @@ public class MainController {
     @Autowired
     private MyRepository myRepository;
 
-    @RequestMapping("/selectWhere")
-    public String selectWhere(ModelMap model) throws Exception {
+    @RequestMapping("/Aiden")
+    public String lending(ModelMap model) throws Exception {
 
-        String superAdmin = null;
-
-        try {
-            superAdmin = myRepository.test();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        if (null != superAdmin) {
-            model.addAttribute("superAdmin", superAdmin);
-        }
-
-        return "selectWhere";
+        return "/main";
     }
+    @RequestMapping("/Daily")
+    public String daily(ModelMap model) throws Exception {
+
+        return "/daily/dailyLife";
+    }
+    @RequestMapping("/Bigdata")
+    public String bigdata(ModelMap model) throws Exception {
+
+        return "/bigdata/bigdata";
+    }
+    @RequestMapping("/Devops")
+    public String devops(ModelMap model) throws Exception {
+
+        return "/devops/devops";
+    }
+    @RequestMapping("/Travel")
+    public String travel(ModelMap model) throws Exception {
+
+        return "/travel/travel";
+    }
+
+    @RequestMapping("/Bigdata01_test")
+    public String big01_test(ModelMap model) throws Exception {
+
+        return "/bigdata/bigdata01_test";
+    }
+//    @RequestMapping("/selectWhere")
+//    public String selectWhere(ModelMap model) throws Exception {
+//
+//        String superAdmin = null;
+//
+//        try {
+//            superAdmin = myRepository.test();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//
+//        if (null != superAdmin) {
+//            model.addAttribute("superAdmin", superAdmin);
+//        }
+//
+//        return "jsp/pipeline.jsp";
+//    }
+
 }
 

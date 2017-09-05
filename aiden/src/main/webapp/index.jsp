@@ -5,10 +5,7 @@
 <html>
 <body>
 <h2>Hello World!</h2>
-
-<c:redirect url="/selectWhere">
-    <c:param name="message" value="안녕하세요" />
-</c:redirect>
+<c:redirect url="/Aiden"/>
 
 </body>
 </html>

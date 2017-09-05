@@ -5,6 +5,15 @@ public class Admin {
     String user_name;
     String user_type;
     String user_id;
+    String job;
+
+    public String getJob() {
+        return job;
+    }
+
+    public void setJob(String job) {
+        this.job = job;
+    }
 
     public void setUserId(String user_id) {
         this.user_id = user_id;
