@@ -10,6 +10,8 @@
 <html>
 <c:import url="../header.jsp"/>
 
+
+
 <body>
 
 <!-- Wrapper -->
@@ -35,56 +37,107 @@
     <div id="main">
 
 
-        <!-- Two -->
-        <section id="two" class="spotlights">
+        <section id="one" class="spotlights">
             <section>
-                <a href="generic.html" class="image">
-                    <img src="<c:url value="/resource/images/pic08.jpg"/>" alt="" data-position="center center" />
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/1.jpg"/>" alt="" data-position="center center" />
                 </a>
-                <div class="content">
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/2.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/3.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/4.jpg"/>" alt="" data-position="center center" />
+                </a>
+
+                <div class="content" style="width: 20%">
                     <div class="inner">
                         <header class="major">
-                            <h3>Orci maecenas</h3>
+                            <h3>Malaysia 2017.08</h3>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
+                        <p></p>
                     </div>
                 </div>
+
             </section>
             <section>
-                <a href="generic.html" class="image">
-                    <img src="<c:url value="/resource/images/pic09.jpg"/>" alt="" data-position="top center" />
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/5.jpg"/>" alt="" data-position="center center" />
                 </a>
-                <div class="content">
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/6.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/7.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/8.jpg"/>" alt="" data-position="center center" />
+                </a>
+
+                <div class="content" style="width: 20%">
                     <div class="inner">
                         <header class="major">
-                            <h3>Rhoncus magna</h3>
+                            <h3>Malaysia 2017.08</h3>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
+                        <p></p>
                     </div>
                 </div>
+
             </section>
+
             <section>
-                <a href="generic.html" class="image">
-                    <img src="<c:url value="/resource/images/pic10.jpg"/>" alt="" data-position="25% 25%" />
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/9.jpg"/>" alt="" data-position="center center" />
                 </a>
-                <div class="content">
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/10.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/11.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/12.jpg"/>" alt="" data-position="center center" />
+                </a>
+
+                <div class="content" style="width: 20%">
                     <div class="inner">
                         <header class="major">
-                            <h3>Sed nunc ligula</h3>
+                            <h3>Thailand 2015.12</h3>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
+                        <p></p>
                     </div>
                 </div>
+
             </section>
+
+            <section>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/13.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/14.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/15.jpg"/>" alt="" data-position="center center" />
+                </a>
+                <a href="#" class="image">
+                    <img src="<c:url value="/resource/images/daily/16.jpg"/>" alt="" data-position="center center" />
+                </a>
+
+                <div class="content" style="width: 20%">
+                    <div class="inner">
+                        <header class="major">
+                            <h3>Thailand 2015.12</h3>
+                        </header>
+                        <p></p>
+                    </div>
+                </div>
+
+            </section>
+
+
         </section>
         <c:import url="../footer.jsp"/>
 </body>
