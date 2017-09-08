@@ -1,7 +1,6 @@
 package com.aiden;
 
-import com.aiden.repository.MyRepository;
-//import org.apache.log4j.Logger;
+import com.aiden.domain.Email;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,12 +8,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 public class MainController {
     protected Logger logger = LoggerFactory.getLogger(this.getClass());
-
     @Autowired
-    private MyRepository myRepository;
+    private EmailSender emailSender;
 
     @RequestMapping("/Aiden")
     public String lending(ModelMap model) throws Exception {
@@ -42,28 +41,27 @@ public class MainController {
         return "/travel/travel";
     }
 
-    @RequestMapping("/Bigdata01_test")
-    public String big01_test(ModelMap model) throws Exception {
+    @RequestMapping("/Bigdata01_webserver")
+    public String big01_webserver(ModelMap model) throws Exception {
 
-        return "/bigdata/bigdata01_test";
+        return "/bigdata/bigdata01_webserver";
     }
-//    @RequestMapping("/selectWhere")
-//    public String selectWhere(ModelMap model) throws Exception {
-//
-//        String superAdmin = null;
-//
-//        try {
-//            superAdmin = myRepository.test();
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
-//
-//        if (null != superAdmin) {
-//            model.addAttribute("superAdmin", superAdmin);
-//        }
-//
-//        return "jsp/pipeline.jsp";
-//    }
+    @RequestMapping("/Bigdata02_ftpserver")
+    public String big01_ftpserver(ModelMap model) throws Exception {
+
+        return "/bigdata/bigdata02_ftpserver";
+    }
+
+
+    @RequestMapping("/Mail")
+    public String sendEmailAction (Email email) throws Exception {
+        emailSender.SendEmail(email);
+
+        return "/mailSuccess";
+    }
+
+
+
 
 }
 

@@ -16,5 +16,19 @@
     <!--[if lte IE 9]><link href = "<c:url value="/resource/assets/css/ie9.css" />" rel="stylesheet"><![endif]-->
     <!--[if lte IE 8]><link href = "<c:url value="/resource/assets/css/ie8.css" />" rel="stylesheet"><![endif]-->
 
+    <style>
+        #myProgress {
+            width: 100%;
+            background-color: #ddd;
+        }
 
+        #myBar {
+            width: 10%;
+            height: 30px;
+            background-color: #4CAF50;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+    </style>
 </head>

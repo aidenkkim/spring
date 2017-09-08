@@ -24,12 +24,14 @@
 </section>
 
 </div>
-
+<div id="myProgress">
+    <div id="myBar">0%</div>
+</div>
 <!-- Contact -->
 <section id="contact">
     <div class="inner">
         <section>
-            <form method="post" action="#">
+            <form method="post" action="/Mail">
                 <div class="field half first">
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" />
@@ -43,7 +45,7 @@
                     <textarea name="message" id="message" rows="6"></textarea>
                 </div>
                 <ul class="actions">
-                    <li><input type="submit" value="Send Message" class="special" /></li>
+                    <li><input type="submit" value="Send Message" class="special" onclick="submitted()"/></li>
                     <li><input type="reset" value="Clear" /></li>
                 </ul>
             </form>
@@ -93,6 +95,26 @@
 
 </div>
 
+<script>
+    document.getElementById('myBar').style.display='none';
+
+    function submitted(){
+        var elem = document.getElementById("myBar");
+        elem.style.display='block';
+        var width = 10;
+        var id = setInterval(frame, 30);
+        function frame() {
+            if (width >= 100) {
+                clearInterval(id);
+            } else {
+                width++;
+                elem.style.width = width + '%';
+                elem.innerHTML = width * 1  + '%';
+            }
+        }
+    }
+
+</script>
 <script src="<c:url value="/resource/assets/js/jquery.min.js" />"></script>
 <script src="<c:url value="/resource/assets/js/jquery.scrolly.min.js" />"></script>
 <script src="<c:url value="/resource/assets/js/jquery.scrollex.min.js" />"></script>
