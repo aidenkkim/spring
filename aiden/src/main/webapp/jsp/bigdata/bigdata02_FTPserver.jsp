@@ -25,7 +25,7 @@
                     <header class="major">
                         <h1>Install Environment</h1>
                     </header>
-                    <span class="image main"><img src="<c:url value="/resource/images/bigdata/big_01_04_ftp.png"/>" alt="" /></span>
+                    <span class="image main"><img src="<c:url value="/resource/images/bigdata/big_02_02_ftp.png"/>" alt="" /></span>
 
 
                     <p>

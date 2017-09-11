@@ -55,7 +55,7 @@
             </section>
             <section>
                 <a href="<c:url value="/Bigdata02_ftpserver"/>" class="image">
-                    <img src="<c:url value="/resource/images/bigdata/big_01_03_ftp.jpg"/>" alt="" data-position="top center" />
+                    <img src="<c:url value="/resource/images/bigdata/big_02_01_ftp.jpg"/>" alt="" data-position="top center" />
                 </a>
                 <div class="content">
                     <div class="inner">
@@ -70,21 +70,22 @@
                 </div>
             </section>
             <section>
-                <a href="generic.html" class="image">
-                    <img src="<c:url value="/resource/images/pic10.jpg"/>" alt="" data-position="25% 25%" />
+                <a href="<c:url value="/Bigdata03_elastic"/>" class="image">
+                    <img src="<c:url value="/resource/images/bigdata/big_03_01_elastic.png"/>" alt="" data-position="25% 25%" />
                 </a>
                 <div class="content">
                     <div class="inner">
                         <header class="major">
-                            <h3>Sed nunc ligula</h3>
+                            <h3>Install Elastic Stack</h3>
                         </header>
-                        <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+                        <p>How to install and Configure ElasticSearch, Logstash, Kibana</p>
                         <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
+                            <li><a href="<c:url value="Bigdata03_elastic"/>" class="button">Learn more</a></li>
                         </ul>
                     </div>
                 </div>
             </section>
+
         </section>
         <c:import url="../footer.jsp"/>
 </body>
